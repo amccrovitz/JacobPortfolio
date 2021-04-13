@@ -1,12 +1,12 @@
-/*
-    DEMO STYLE
-*/
 
 @import "https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700";
-body {
-    font-family: 'Poppins', sans-serif;
+
+body{
+    font-family: 'Roboto', sans-serif;
     background: #fafafa;
-}
+  }
+
+
 
 p {
     font-family: 'Poppins', sans-serif;
@@ -194,18 +194,74 @@ a.article:hover {
     CONTENT STYLE
 ----------------------------------------------------- */
 
+#main-img{ 
+	background-image: url("src/art.jpg"); 
+  
+    
+    background-position: center center;
+    
+  
+    background-repeat: no-repeat;
+    
+   
+    background-attachment: fixed;
+    
+    
+    background-size: cover;
+    
+   
+    max-height: 80%;
+	width: 100%;
+    
+} 
+.bigImage{
+    background-image: url("src/art.jpg"); 
+    height: 400px;
+}
+.jumbotron{
+    margin: 0;
+}
+#main-img-text{ 
+	position: absolute; 
+	 
+    color: black;
+    font-size: 30px;
+    text-align: right;
+    margin-top: 25%;
+    
+    width: 100%;
+} 
+
+#divider-line{
+    background-color: coral;
+    width: 100%;
+    max-height: 100px;
+    font-size: 20px;
+    position: relative;
+}
+
+
 #content {
     width: 100%;
-    padding: 20px;
+   height: 100%;
     min-height: 100vh;
+   
     transition: all 0.3s;
 }
+
+
+
+ 
+
 
 /* ---------------------------------------------------
     MEDIAQUERIES
 ----------------------------------------------------- */
 
 @media (max-width: 768px) {
+    #main-img{ 
+        background-image: url("src/art.jpg"); 
+    }
     #sidebar {
         min-width: 80px;
         max-width: 80px;
