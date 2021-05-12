@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>Collapsible sidebar using Bootstrap 4</title>
+    <title>Jacob Ringer's Portfolio</title>
 
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Cinzel+Decorative:wght@400;700&display=swap" rel="stylesheet">
@@ -23,6 +23,7 @@
     <!-- Font Awesome JS -->
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/solid.js" integrity="sha384-tzzSw1/Vo+0N5UhStP3bvwWPq+uvzCMfrN1fEFe+xBmv1C/AtVX5K0uZtmcHitFZ" crossorigin="anonymous"></script>
     <script defer src="https://use.fontawesome.com/releases/v5.0.13/js/fontawesome.js" integrity="sha384-6OIrr52G08NpOFSZdxxz1xdNSndlD4vdcf/q2myIUVO0VsqaGHJsB0RaBE01VTOY" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.3/css/all.css" integrity="sha384-SZXxX4whJ79/gErwcOYf+zWLeJdY/qpuqC4cAa9rOGUstPomtqpuNWT9wdPEn2fk" crossorigin="anonymous">
 
 </head>
 
@@ -61,7 +62,7 @@
                     </a>
                     </li>
                     <li>
-                        <a href="#">
+                        <a href="./src/Jacob_Ringer_Game_Development_Resume.doc.pdf" target="_blank">
                        RESUME
                     </a>
                     </li>
@@ -79,7 +80,7 @@
         <div id="content">
             <div class="jumbotron jumbotron-fluid bigImage" id="mainpage-header">
                 <div class="container">
-                    <h1 class="display-4">Jacob Ringer</h1>
+                    <h1 class="display-4 mainText">Jacob Ringer</h1>
                     <p class="lead">Game Designer</p>
                 </div>
             </div>
@@ -88,45 +89,52 @@
 
 
 
-            <div class="portfolio-grid" id="portfolio">
+            <div class="pageContent" id="portfolio">
                 <div class="container">
                     <div class="intro">
                         <h2 class="text-center">PORTFOLIO</h2>
-                        <p class="text-center">Nunc luctus in metus eget fringilla. Aliquam sed justo ligula. Vestibulum nibh erat, pellentesque ut laoreet. </p>
                     </div>
-                    <div class="row people">
+                    <div class="row game">
                         <div class="col-md-4 col-lg-3 item">
-                            <div class="box" style="background-image:url(./src/LastStand.png)">
-                                <div class="cover">
-                                    <h3 class="name">Last Stand</h3>
-                                    <p class="title">Solo Project</p>
-                                </div>
+                            <div class="box" style="background-image:url(./src/game2.png)">
+                                <a href="./Operation:Valor.html">
+                                    <div class="cover">
+                                        <h3 class="name">Operation: Valor</h3>
+                                        <p class="title">Programmer</p>
+
+                                    </div>
+                                </a>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-3 item">
                             <div class="box" style="background-image:url(./src/game1.png)">
-                                <div class="cover">
-                                    <h3 class="name">This is Not a Drill</h3>
-                                    <p class="title">Gameplay Engineer</p>
-                                </div>
+                                <a href="./ThisIsNotADrill.html">
+                                    <div class="cover">
+                                        <h3 class="name">This is Not a Drill</h3>
+                                        <p class="title">Gameplay Engineer</p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-3 item">
-                            <div class="box" style="background-image:url(./src/game2.png)">
-                                <div class="cover">
-                                    <h3 class="name">Operation: Valor</h3>
-                                    <p class="title">Programmer</p>
-
-                                </div>
+                            <div class="box" style="background-image:url(./src/LastStand.png)">
+                                <a href="./LastStand.html">
+                                    <div class="cover">
+                                        <h3 class="name">Last Stand</h3>
+                                        <p class="title">Solo Project</p>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                         <div class="col-md-4 col-lg-3 item">
                             <div class="box" style="background-image:url(./src/game3.png)">
-                                <div class="cover">
-                                    <h3 class="name">Angry Intern</h3>
-                                    <p class="title">Lead Programmer</p>
+                                <a href="./AngryIntern.html">
+                                    <div class="cover">
+                                        <h3 class="name">Angry Intern</h3>
+                                        <p class="title">Lead Programmer</p>
 
-                                </div>
+                                    </div>
+                                </a>
                             </div>
                         </div>
                     </div>
@@ -134,31 +142,49 @@
             </div>
 
 
-            <div class="about-content" id="about">
+            <div class="pageContent" id="about">
 
                 <div class="container">
                     <div class="intro">
-                        <h2 class="text-center">ABOUT</h2>
+                        <h2 class="text-center" style="padding-bottom: 30px;">ABOUT</h2>
                     </div>
                     <div class="row">
-                        <div class="col-md-6">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                        <div class="col">
+                            <IMG class="textWrap" SRC="./src/IMG_3629 2.jpg" style="width: 300px; height: 400px;">
+                            <P>
+                                Hello everyone, my name is Jacob Ringer! I am a ​highly-skilled, team-oriented programmer and designer. My goal is to provide only the best work with whoever I am working with, and I strive to continue learning more ways to better my skills in programming.
+                            </P>
+                            <p>
+                                I graduated from Indiana University in the Spring of 2020, Majoring in Game Design with a specialization in programming. Within the game design program of the university, I have worked with several teams on many different projects. I have been through
+                                both the successes and failures of developing a game, and have learned immensely on what it takes to work on a successful game with a team.
+                            </p>
+                            <p>Being in this field, I always make sure to continue learning new ways to better my work every single day. Technology has been changing and growing rapidly, so it’s essential to be a quick learner. There will always be something
+                                new I can learn or improve upon.
+                            </p>
+                            <p>I would love to talk about job opportunities, my past projects, or anything else that comes to mind!
+                            </p>
+
                         </div>
-                        <div class="col-md-6" style="background-image: url(./src/Male-silhouette.png);">.col-md-6</div>
                     </div>
                 </div>
             </div>
-            <div class="contact-contact" id="contact">
-                <h2>Collapsible Sidebar Using Bootstrap 4</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+            <div class="pageContent" id="contact">
 
-                <div class="line"></div>
+                <div class="container">
+                    <div class="intro">
+                        <h2 class="text-center" style="padding-bottom: 30px;">CONTACT</h2>
+                    </div>
+                    <div class="row">
+
+                        <div class="col text-center"><a href="https://www.linkedin.com/in/jacob-ringer-21975b110/" target="_blank"><i class="fab fa-linkedin fa-5x" style="color: #0e3858;"></i></a>&nbsp&nbsp&nbsp&nbsp
+                            <a href="mailto:ringerj97@gmail.com" target="_blank"><i class="fas fa-envelope fa-5x" style="color: #0e3858;"></i></a>
+                        </div>
+
+
+
+                    </div>
+                </div>
             </div>
-
 
 
         </div>

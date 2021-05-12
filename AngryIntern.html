@@ -40,23 +40,23 @@
             <ul class="list-unstyled components">
                 <li>
                     <li>
-                        <a href="#">
+                        <a href="./index.html">
                             HOME
                         </a>
                     </li>
                     <li>
-                        <a href="#portfolio">
+                        <a href="./index.html#portfolio">
                         PORTFOLIO
                     </a>
                     </li>
                     <li>
-                        <a href="#about">
+                        <a href="./index.html#about">
                         ABOUT
                     </a>
                     </li>
 
                     <li>
-                        <a href="#contact">
+                        <a href="./index.html#contact">
                        CONTACT
                     </a>
                     </li>
@@ -77,45 +77,57 @@
 
 
         <div id="content">
-            <div class="jumbotron jumbotron-fluid bigImage">
-                <div class="container">
-                    <h1 class="display-4">Jacob Ringer</h1>
-                    <p class="lead">Game Designer</p>
+            <script type="text/javascript">
+                $(document).ready(function() {
+                    $('.carousel').carousel({
+                        interval: 6000,
+                        pause: "false"
+                    });
+                });
+            </script>
+
+
+            <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                <!-- Wrapper for slides -->
+                <div class="carousel-inner gameImage">
+                    <div class="carousel-item active ">
+                        <img class="d-block w-100" src="./src/74b059_8da0dbd85b6640b0a2bfff6c3e8b4208_mv2.gif" data-color="lightblue" alt="First Image">
+
+                    </div>
+
                 </div>
             </div>
 
-            <!-- <img src="src/art.jpg" class="img-fluid" alt="The Scene">-->
 
 
-            <div class="about-content" id="about">
-
+            <div class="pageContent">
                 <div class="container">
                     <div class="intro">
-                        <h2 class="text-center">LAST STAND</h2>
+                        <h2 class="text-center">ANGRY INTERN</h2>
                     </div>
-                    <div class="row">
-                        <div class="col-md-6">
-                            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                                Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                        </div>
-                        <div class="col-md-6" style="background-image: url(./src/Male-silhouette.png);">.col-md-6</div>
+                    <div class="gameText">
+                        <p class="text-center role">Platform: Windows | Engine: Unity C# | Role: Lead Programmer </p>
+                        <p class="text-left  ">Angry Intern is a stealth-based game where the player must sabotage their company by causing as much havoc as possible, which involves various interactions between various objects found in the office.
+
+                        </p>
+                        <p class="text-left">
+                            As Lead Programmer, I worked with the designers to develop and implement game software, and ensured game design was fully implemented and performed as expected.
+                        </p>
+
+                        <ul>
+                            <li>Designed and balanced the system of object interactions</li>
+                            <li>Programmed an inventory system and UI to use collected items</li>
+                            <li>Created basic AI pathfinding</li>
+                            <li>Responsible for programming dynamic audio to change depending on several variables
+                            </li>
+                        </ul>
+
                     </div>
                 </div>
             </div>
-            <div class="contact-contact" id="contact">
-                <h2>Collapsible Sidebar Using Bootstrap 4</h2>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
-                    aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-
-                <div class="line"></div>
-            </div>
-
 
 
         </div>
-
     </div>
     <!---->
 
@@ -126,13 +138,7 @@
     <!-- Bootstrap JS -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.3/js/bootstrap.bundle.min.js"></script>
-    <script type="text/javascript">
-        $(document).ready(function() {
-            $('#sidebarCollapse').on('click', function() {
-                $('#sidebar').toggleClass('active');
-            });
-        });
-    </script>
+
 
 
 </body>
