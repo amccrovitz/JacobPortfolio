@@ -44,6 +44,7 @@ span {
     font-size: 5rem;
     font-weight: 700;
     padding-top: 100px;
+    text-shadow: 2px 2px 4px black;
 }
 
 
@@ -356,6 +357,14 @@ html {
     }
     .jumbotron {
         min-height: 0;
+    }
+    .gameImage img {
+        max-height: 300px;
+        min-width: 200px;
+    }
+    .gameText {
+        padding-left: 0px;
+        padding-right: 0px;
     }
     #sidebar {
         min-width: 90px;
